@@ -1,0 +1,15 @@
+{
+  "name": "grupo_5_palabrassinprisas",
+  "version": "1.0.0",
+  "description": ">Acerca del proyecto: Este sitio esta destinado para la venta de libros",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
