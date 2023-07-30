@@ -1,25 +1,169 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #42A49B;
+    color: #E84222;
+}
+
+/* ---------------- Header ---------------- */
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+.search-bar{
+    padding: 5px;
+    text-align: center;
+}
+.login-bar i{
+    color: #42A49B;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.burger-button {
+    background-color: #03264C;
+    color: #FFF;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+/* ---------------- Footer ---------------- */
+footer{
+    background-color: #EAC926;
+    color: #666;
+    padding-top: 10px;
+}
+.footer-section{
+    text-align: center;
+    margin: 2em auto;
+    display: flex;
+}
+.footer-section ul, .social-media-navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-icon{
+    color: #1259c3;
+    font-size:2em;
+    margin-bottom: 10px;
+    transition: all 450ms;
+}
+.footer-icon:hover{
+    color: #42A49B;
+}
+.copyright{
+    padding: 2em .5em;
+}
+.footer-navbar,.social-media-navbar{
+    display: flex;
+}
+.footer-navbar a,.social-media-navbar a {
+    text-decoration: none;
+    color: #222;
+    padding: 5px 0;
+    font-size: 17px;
+    padding: 5px;
+}
+.footer-navbar li{
+    border-right: 1px solid #42A49B;
+}
+/* ----------------Carrito de compras---------------- */
+.carrito-container{
+    width: 90vw;
+    background-color: #ebebeb;
+    margin: 10px auto;
+}
+.carrito-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.products-section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+.products-section article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja-article-img img{
+    width: 10vw;
+}
+article{
+    padding: 5px;
+}
+.caja-article-img,.caja-article-info{
+    box-sizing: border-box;
+    border-top: solid #ebebeb 1px;
+    background-color: #fff;
+    position: relative;
+    transition: all 450ms;
+}
+.caja-article-info:hover{
+    box-shadow: 10px 5px 5px #666;
+}
+.buy-section{
+    background-color: #fff;
+    text-align: center;
+    padding-right: 20px;
+    max-width: 40%;
+}
+.buy-section form div{
+    padding: 4vh 0;
+}
+.buy-button button{
+    background-color: #EAC926;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #b59805;
+    width: 70%;
+}
 
 /* ----------------Form. Registro---------------- */
 
-.container{
+.container {
     height: 100vh;
     background-color: #fff7ec;
 }
 
-.form-container{
+.form-container {
     background-color: #fff7ec;
     padding: 20px;
     max-width: 400px;
     margin: auto;
 }
 
-.userdata{
+.userdata {
     width: 100%;
     padding: 7px;
     border-radius: 5px;
@@ -27,12 +171,12 @@
     margin-bottom: 15px;
 }
 
-.container-button-register{
+.container-button-register {
     display: flex;
     justify-content: center;
 }
 
-.container-button-register button{
+.container-button-register button {
     background-color: white;
     padding: 7px;
     border-radius: 5px;
@@ -40,12 +184,12 @@
     width: 70%;
 }
 
-.title-register{
+.title-register {
     margin-bottom: 15px;
     text-align: center;
 }
 
-.form-register{
+.form-register {
     border-top: 1px solid #ebebeb;
     padding-top: 15px;
 }
@@ -53,8 +197,8 @@
 
 /* -----------------Cortes de Linea------------------- */
 
-@media(min-width: 500px){
-    .container{
+@media(min-width: 500px) {
+    .container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -63,4 +207,81 @@
         /* background-image: url("/img/"); */
     }
 
+}
+
+/* Tablets */
+@media (min-width: 460px) {
+
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 40%;
+    }
+
+    .search-bar {
+        max-width: 30%;
+    }
+
+    .main-navbar, .footer-section {
+        display: flex !important;
+        justify-content: space-around;
+    }
+
+    .main-navbar ul, .footer-section ul
+    .social-media-navbar {
+        display: flex;
+    }
+
+    .main-navbar li, .footer-section ul,
+    .social-media-navbar li {
+        margin: 0 5px;
+    }
+
+    .burger-button {
+        display: none !important;
+    }
+}
+
+/* Laptop */
+@media (min-width:768px) {
+    .logo {
+        width: 250px;
+    }
+
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .main-navbar {
+        margin-top: 40px;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+    }
+
+    .main-navbar a {
+        font-size: 19px;
+    }
+
+    .products-section{
+        max-width: 75%;
+    }
+    .buy-section{
+        max-width: 25%;
+    }
 }
