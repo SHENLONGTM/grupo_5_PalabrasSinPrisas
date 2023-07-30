@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ----------------Form. Registro---------------- */
+
+.container{
+    height: 100vh;
+    background-color: #fff7ec;
+}
+
+.form-container{
+    background-color: #fff7ec;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.userdata{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #fff7ff;
+    margin-bottom: 15px;
+}
+
+.container-button-register{
+    display: flex;
+    justify-content: center;
+}
+
+.container-button-register button{
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 70%;
+}
+
+.title-register{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-register{
+    border-top: 1px solid #ebebeb;
+    padding-top: 15px;
+}
+
+
+/* -----------------Cortes de Linea------------------- */
+
+@media(min-width: 500px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* background-image: url("/img/"); */
+    }
+
+}
