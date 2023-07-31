@@ -5,6 +5,7 @@ Retrospectiva
 
 2. Hacer más:
 -Reuniones
+-Conectarnos a clases
 
 3. Continuar haciendo:
 -Ayudarnos entre todos
