@@ -9,7 +9,7 @@ _Matias Garzon: 23 años, alumno de la facultad de ingenieria (UNJu).
 _Martin Toconas: 20 años, alumno del Profesorado de Informatica (IES 2).
 _Maria Villalba: 22 años, alumna del Profesorado de Matematicas(IES 5).
 _Stella Sanchez: 24 años, alumna de la Tecnicatura Administracion en Salud (IES 11)
-_Cande...
+_Candela Ruiz: 19 años, alumna del Profesorado de Inglés (IES 4)
 
 >Sitios de referencias:
 https://www.planetadelibros.com.ar/ : Estructura y presentacion de los libros.
@@ -21,3 +21,5 @@ https://www.tematika.com/ : Menu Desplegable.
 https://www.librenta.com/ : Diseño del sitio en general y de las categorias con imagenes.
 
 https://www.sbs.com.ar/ : Simplicidad y Diseño.
+
+Tablero de trabajo: https://github.com/users/mariavillalba06/projects/3
