@@ -158,12 +158,12 @@ input{
 /* ----------------Form. Registro---------------- */
 
 .container {
-    height: 100vh;
-    background-color: #fff7ec;
+    /* height: 100vh; */
+    background-color: #123331;
 }
 
 .form-container {
-    background-color: #fff7ec;
+    background-color: #123331;
     padding: 20px;
     max-width: 400px;
     margin: auto;
@@ -175,6 +175,7 @@ input{
     border-radius: 5px;
     border: 1px solid #fff7ff;
     margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 .container-button-register {
@@ -188,11 +189,24 @@ input{
     border-radius: 5px;
     border: 1px solid white;
     width: 70%;
+    max-width: 230px;
+}
+
+.container-button-register:hover button{
+    background-color: #FDC823;
+    border: 1px solid #FDC823;
 }
 
 .title-register {
     margin-bottom: 15px;
     text-align: center;
+    color: #FDC823;
+}
+
+.register-labels{
+    color: #FDC823;
+    margin-bottom: 5px;
+    padding-left: 5px;
 }
 
 .form-register {
@@ -203,17 +217,6 @@ input{
 
 /* -----------------Cortes de Linea------------------- */
 
-@media(min-width: 500px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        /* background-image: url("/img/"); */
-    }
-
-}
 
 /* Tablets */
 @media (min-width: 460px) {
@@ -255,6 +258,16 @@ input{
 
     .burger-button {
         display: none !important;
+    }
+
+    /* --------------Form. Registro--------------- */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* background-image: url("/img/"); */
     }
 }
 

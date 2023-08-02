@@ -4,30 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9ea4be703a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+          <a href="/home" class="logo">
+            <img
+              src="/img/logo-palabras-sin-prisa.png"
+              alt="logo-palabras-sin-prisa"
+            />
+          </a>
+  
+          <div class="search-bar">
+            <form action="" method="post">
+              <input
+                type="text"
+                name="search-bar"
+                id="search-bar"
+                placeholder="Buscar libros, autores"
+              />
+              <button
+                type="submit"
+                name="submit"
+                value="submit"
+                class="search-icon"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <nav class="main-navbar">
+          <ul class="login-bar">
+            <li>
+              <a href="/home">Inicio<i class="fa-solid fa-house"></i></a>
+            </li>
+            <li>
+              <a href="/categorias"
+                >Categorias <i class="fa-solid fa-book"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/registro"
+                >Registrarse<i class="fa-regular fa-address-card"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/login"
+                >Ingreso<i class="fa-solid fa-right-to-bracket"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/carrito-de-compras"
+                >Mi carrito<i class="fa-solid fa-basket-shopping"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/contacto"
+                >Contacto <i class="fa-solid fa-address-book"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="burger-button">
+          <i class="fas fa-bars"></i>
+        </a>
+    </header>
+
+
     <div class="container">
         <div class="form-container">
             <h1 class="title-register">Registro</h1>
             <form class="form-register">
                 <div>
-                    <label for="name">Nombre y Apellido</label>
+                    <label class="register-labels" for="name">Nombre y Apellido</label>
                     <input class="userdata" type="text" name="name" id="name" placeholder="Nombre y Apellido">
                 </div>
 
                 <div>
-                    <label for="username">Nombre de Usuario</label>
+                    <label class="register-labels" for="username">Nombre de Usuario</label>
                     <input class="userdata" type="text" name="username" id="username" placeholder="Nombre de Usuario">
                 </div>
 
                 <div>
-                    <label for="email">Ingrese su E-mail</label>
+                    <label class="register-labels" for="email">Ingrese su E-mail</label>
                     <input class="userdata" type="email" name="email" id="email" placeholder="E-mail">
                 </div>
 
                 <div>
-                    <label for="password">Contraseña</label>
+                    <label class="register-labels" for="password">Contraseña</label>
                     <input class="userdata" type="password" name="password" id="password" placeholder="Contraseña">
                 </div>
 
@@ -37,5 +111,53 @@
             </form>
         </div>
     </div>
+
+    <footer>
+        <section class="footer-section">
+          <ul class="footer-navbar">
+            <li>
+              <a href="#">Productos</a>
+            </li>
+            <li>
+              <a href="#">Sucursales</a>
+            </li>
+            <li>
+              <a href="#">Ayuda</a>
+            </li>
+            <li>
+              <a href="/home">PALABRAS SIN PRISA</a>
+            </li>
+            <li>
+              <a href="#">Medios de pago</a>
+            </li>
+            <li>
+              <a href="#">Servicios de atencion al cliente</a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-section">
+          <ul class="social-media-navbar">
+            <li>
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </section>
+        <section class="copyright">
+          <p>Copyright ©2023 Palabras Sin Prisa</p>
+        </section>
+      </footer>
+
 </body>
 </html>
