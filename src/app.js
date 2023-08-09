@@ -2,38 +2,32 @@
 const express = require('express');
 const app = express();
 
-const path = require('path');
-
 //Poner a escuchar al servidor
 app.listen(3000,()=>{
     console.log("Servidor corriendo en http://localhost:3000/");
 })
 
+//Recursos estaticos
 app.use(express.static('public'));
 
 /* Manejo de rutas */
 //Raiz
-app.get("/", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/index.html"))
-})
-app.get("/home", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/index.html"))
-})
+const rutasMain = require('../routes/main');
+app.use('/',rutasMain);
 
 //Detalle de producto
-app.get("/detalle-de-producto", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/productDetail.html"))
-})
+const rutasProductDetail = require('../routes/productDetail');
+app.use('/detalle-de-producto',rutasProductDetail);
 
 //Carrito de compras
-app.get("/carrito-de-compras", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/productCart.html"))
-})
+const rutasProductCart = require('../routes/productCart');
+app.use('/carrito-de-compras',rutasProductCart);
+
 //Registro
-app.get("/registro", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/register.html"))
-})
+const rutasRegister = require('../routes/register');
+app.use('/registro',rutasRegister);
+
 //Login
-app.get("/login", (req,res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/login.html"))
-})
+const rutasLogin = require('../routes/login');
+app.use('/login',rutasLogin);
+
