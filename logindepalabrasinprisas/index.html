@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="CSS/master.css">
+</head> 
+
+<body>
+  <div class="login-conteiner">
+  <h1>Inicio de sesión</h1>
+  <form id="login-form">
+    <label for="username">Nombre de usuario:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required>
+    <label for="remember">Recordar contraseña:</label>
+    <input type="checkbox" id="remember" name="remember">
+    <button type="submit">Iniciar sesión</button>
+  </form>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const loginForm = document.getElementById('login-form');
+      const rememberCheckbox = document.getElementById('remember');
+      const usernameInput = document.getElementById('username');
+      const passwordInput = document.getElementById('password');
+
+      // Cargar la contraseña guardada (si existe) al cargar la página
+      if (localStorage.getItem('rememberedUsername')) {
+        usernameInput.value = localStorage.getItem('rememberedUsername');
+        rememberCheckbox.checked = true;
+      }
+
+      if (localStorage.getItem('rememberedPassword')) {
+        passwordInput.value = localStorage.getItem('rememberedPassword');
+      }
+
+      // Manejar el envío del formulario
+      loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const username = usernameInput.value;
+        const password = passwordInput.value;
+
+        // Aquí deberías realizar la autenticación del usuario, por ejemplo, con una llamada a una API
+
+        // Si la opción de "Recordar contraseña" está marcada, guardar la contraseña
+        if (rememberCheckbox.checked) {
+          localStorage.setItem('rememberedUsername', username);
+          localStorage.setItem('rememberedPassword', password);
+        } else {
+          // Si la opción no está marcada, eliminar la contraseña guardada
+          localStorage.removeItem('rememberedUsername');
+          localStorage.removeItem('rememberedPassword');
+        }
+
+        // Continuar con el proceso de inicio de sesión o redirigir a otra página
+        // Por ahora, simplemente mostraremos una alerta para indicar que el inicio de sesión fue exitoso
+        alert("¡Inicio de sesión exitoso!");
+      });
+    });
+  </script>
+</body>
+</html>
