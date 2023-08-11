@@ -74,13 +74,13 @@ main {
 }
 
 .articleContainer {
-    width: 100%;
+    width: 80%;
     position: relative;
     padding: 0;
     transition: all 500ms;
     overflow: hidden;
     max-width: 400px;
-    margin-bottom: 30px;
+    margin: 15px;
 }
 
 .articleContainer img {
@@ -119,7 +119,7 @@ main {
 }
 
 .price {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -229,6 +229,7 @@ footer {
 
 input {
     width: 100%;
+    max-width: 200px;
 }
 
 /* ----------------Form. Registro---------------- */
@@ -364,7 +365,8 @@ input {
     }
 
     .articleContainer {
-        width: 40%;
+        width: 35%;
+        margin: 20px;
     }
 
 
@@ -455,5 +457,12 @@ input {
     .detalle-img,.detalle-info,.detalle-compra{
         width: 30%;
         padding: 5px;
+    }
+
+
+    /* --------------- Main ---------------- */
+    .articleContainer {
+        width: 20%;
+        margin: 20px;
     }
 }
