@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- HEAD -->
+  <%- include('../partials/head.ejs') %>
+  <body>
+    <!-- HEADER -->
+    <%- include('../partials/header.ejs') %>
+
+    <!-- MAIN -->
+    <div class="container">
+      <div class="form-container">
+        <h1 class="title-register">Registro</h1>
+        <form class="form-register">
+          <div>
+            <label class="register-labels" for="name">Nombre y Apellido</label>
+            <input
+              class="userdata"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nombre y Apellido"
+            />
+          </div>
+
+          <div>
+            <label class="register-labels" for="username"
+              >Nombre de Usuario</label
+            >
+            <input
+              class="userdata"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Nombre de Usuario"
+            />
+          </div>
+
+          <div>
+            <label class="register-labels" for="email">Ingrese su E-mail</label>
+            <input
+              class="userdata"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+
+          <div>
+            <label class="register-labels" for="password">Contraseña</label>
+            <input
+              class="userdata"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+            />
+          </div>
+
+          <div class="container-button-register">
+            <button type="submit">Registrarme</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>

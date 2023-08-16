@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- HEAD -->
+  <%- include('../partials/head.ejs') %>
+
+  <body>
+    <!-- HEADER -->
+    <%- include('../partials/header.ejs') %>
+
+    <!--MAIN -->
+    <main class="carrito-container">
+      <h1 class="titulo">Carrito de compras</h1>
+      <div class="carrito-section">
+        <section class="products-section">
+          <article>
+            <div class="caja-article-img">
+              <img src="/img/libro1.jpg" alt="img-libro-1" />
+            </div>
+            <div class="caja-article-info">
+              <h3>Libro 1</h3>
+              <p>Precio por unidad $000</p>
+              <button>1</button>
+              <p>Precio sutotal $000</p>
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </article>
+          <article>
+            <div class="caja-article-img">
+              <img src="/img/libro2.jpg" alt="img-libro-2" />
+            </div>
+            <div class="caja-article-info">
+              <h3>Libro 2</h3>
+              <p>Precio por unidad $000</p>
+              <button>1</button>
+              <p>Precio sutotal $000</p>
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </article>
+          <article>
+            <div class="caja-article-img">
+              <img src="/img/libro3.jpg" alt="img-libro-3" />
+            </div>
+            <div class="caja-article-info">
+              <h3>Libro 3</h3>
+              <p>Precio por unidad $000</p>
+              <button>1</button>
+              <p>Precio sutotal $000</p>
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </article>
+          <article>
+            <div class="caja-article-img">
+              <img src="/img/libro4.jpg" alt="img-libro-4" />
+            </div>
+            <div class="caja-article-info">
+              <h3>Libro 4</h3>
+              <p>Precio por unidad $000</p>
+              <button>1</button>
+              <p>Precio sutotal $000</p>
+              <i class="fa-solid fa-trash"></i>
+            </div>
+          </article>
+        </section>
+        <section class="buy-section">
+          <h3>Envio gratis</h3>
+          <form action="" method="post">
+            <div>
+              <label for="cp">Código postal</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="descuento">Cupon de descuento</label>
+              <input type="text" />
+              <button type="submit">Añadir</button>
+            </div>
+            <div class="buy-button">
+              <button type="submit">FINALIZAR COMPRA</button>
+              <button><a href="/home">SEGUIR COMPRANDO</a></button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- HEAD -->
+  <%- include('../partials/head.ejs')  %>
+
+  <body>
+    <!-- HEADER -->
+    <%- include('../partials/header.ejs') %>
+
+    <!-- MAIN -->
+    <main>
+      <h1 class="titulo">Detalle del producto</h1>
+      <div class="detalle-section">
+          <div class="detalle-img">
+            <img src="/img/libro1.jpg" alt="img-libro-1" />
+          </div>
+          <div class="detalle-info">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <h3>Libro 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quos sint sequi qui voluptas numquam vel, incidunt totam molestias illo, repudiandae optio, eum quam dicta laudantium nostrum eaque blanditiis sit! Fuga, impedit voluptatum! Aperiam quia voluptatibus cupiditate velit! Sint, maxime?</p>
+            <p>Categoria: ficción</p>
+          </div>
+          <div class="detalle-compra">
+            <p><i class="fa-solid fa-circle-dollar-to-slot"></i> 0000.00</p>
+            <p>Hasta X cuotas sin interes</p>
+            <p>Cuotas sin interes de $000.00</p>
+            <form action="">
+                <button type="submit">Comprar Ahora</button>
+                <button type="submit">Agregar al carrito</button>
+            </form>
+          </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>
