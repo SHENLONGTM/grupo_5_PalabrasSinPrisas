@@ -39,3 +39,7 @@ app.use('/registro',rutasRegister);
 const rutasLogin = require('../routes/login');
 app.use('/login',rutasLogin);
 
+//producto
+const rutasProduct = require("../routes/products");
+app.use("/product", rutasProduct);
+

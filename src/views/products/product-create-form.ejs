@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- HEAD -->
+  <%- include('../partials/head.ejs')  %>
+
+  <body>
+    <!-- HEADER -->
+    <%- include('../partials/header.ejs') %>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container-product-create">
+            <div class="title-cp">
+                <h1>Creacion de producto</h1>
+            </div>
+        
+            <div class="create-section">
+                <form action="" method="">
+                    <div class="container-input-form">
+                        <label for="name">Nombre del producto:</label>
+                        <input type="text" id="name" name="name" placeholder="Ej. Notebook">
+                    </div>
+                    <div class="container-input-form">
+                        <label for="price">Precio del producto:</label>
+                        <input type="text" id="price" name="price" placeholder="Ej. 150000">
+                    </div>
+                    <div class="container-input-form">
+                        <label for="portada">Portada:</label>
+                        <input type="file" id="portada name="portada" accept=".jpg">
+                    </div>
+                    <div class="container-input-form">
+                        <label for="category">Categoria:</label>
+                        <div>
+                            <label class="label-checkboxs">
+                                <input class="input-checkbox" type="checkbox" id="category" name="category" value="terror">Terror
+                            </label>
+                            <label class="label-checkboxs">
+                                <input class="input-checkbox" type="checkbox" id="category" name="category" value="romance">Romance
+                            </label>
+                            <label class="label-checkboxs">
+                                <input class="input-checkbox" type="checkbox" id="category" name="category" value="ficcion">Ficción
+                            </label>
+                        </div>
+                    </div>
+                    <div class="container-input-form">
+                        <label for="sinopsis">Sinopsis:</label>
+                        <textarea class="textarea-sinopsis" name="sinopsis" id="sinopsis"></textarea>
+                    </div>
+                    <div class="container-input-form">
+                        <button class="button-for-create" type="submit">Guardar producto</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>
