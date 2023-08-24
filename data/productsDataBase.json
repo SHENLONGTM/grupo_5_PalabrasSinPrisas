@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Adios Cachorra",
+        "sinopsis":"No estar en pareja está bien, separarse está bien, tener apps de citas está bien, salir y divertirse está bien. Lo que no está bien bajo ningún punto de vista es que sigamos permitiendo que la frustración que nos genera el ghosting , las cancelaciones de los encuentros a último momento, los chats abandonados, las promesas incumplidas por parte de gente que recién habíamos comenzado a conocer nos llenen de inseguridades, dudas y autoboicot. En esta graciosa ficción, tres mujeres con distintas personalidades y a quienes el mundo de las primeras citas les resulta un enigma se conocerán en un viaje. Ava, una australiana de treinta años que decide irse a París después de una última salida fallida con uno de Tinder que la rechazó y que encima olía a salchichas, huevo y arroz. Oli, una arquitecta de veintisiete años, estadounidense y millonaria que resuelve irse a la Ciudad Luz luego de descubrir que Ben, uno con el que se vio una vez por semana durante dos años y que supuestamente no estaba para nada serio, se puso de novio con otra. E Isa, una española que atraviesa una crisis existencial porque se divorció de su marido de toda la vida y sus hijos ya son grandes y no la demandan como antes. Allí conocerán a Lili, una argentina de cuarenta años que en su pasado lo único que tenía eran miles de intentos de relaciones fallidas y no entendía por qué. Esa frustración la llevó a buscar soluciones en libros de sociología, psicología, neurociencia y divulgación feminista. Su investigación la condujo a encontrar respuestas a su dilema y desde entonces sus citas son siempre un éxito. Lili las ayudará a entender por qué no consiguen pasar de los primeros encuentros y les dará herramientas para lograr ser auténticas y vistas en todas esas oportunidades. Y vos, lectora, ¿estás lista para hackear el mundo citero?",
+        "image":"adio-cachorra.jpg",
+        "category":"",
+        "price":6000
+    },
+    {
+        "id":2,
+        "name":"Al final de la calle 118",
+        "sinopsis":"Vivir al final de la calle 118 no es fácil. La madre de Valeria y Raven las abandonó hace años sin dar explicaciones y ambas han tenido que aprender a ganarse la vida. Mientras Valeria tiene un insignificante trabajo como modelo, su hermana patea la ciudad en busca de hombres a los que seducir para pagar el alquiler a cambio de sus servicios. Valeria pensaba que todo seguiría así para siempre… hasta que escucha la música de aquel chico al final de la calle, junto a su casa, y sus miradas se cruzan. Desde ese momento, una serie de curiosas coincidencias llevará a los personajes de esta novela a cambiar sus vidas como nunca se hubieran imaginado.",
+        "image":"al-final-de-la-calle.jpg",
+        "category":"",
+        "price":6000
+    },
+    {
+        "id":3,
+        "name":"Bajo la misma estrella",
+        "sinopsis":"Emotiva, irónica y afilada. Una novela teñida de humor y de tragedia que habla de nuestra capacidad para soñar incluso en las circunstancias más difíciles. A Hazel y a Gus les gustaría tener vidas más corrientes. Algunos dirían que no han nacido con estrella, que su mundo es injusto. Hazel y Gus son solo adolescentes, pero si algo les ha enseñado el cáncer que ambos padecen es que no hay tiempo para lamentos, porque, nos guste o no, solo existe el hoy y el ahora. Y por ello, con la intención de hacer realidad el mayor deseo de Hazel —conocer a su escritor favorito—, cruzarán juntos el Atlántico para vivir una aventura contrarreloj, tan catártica como desgarradora. Destino: Ámsterdam, el lugar donde reside un enigmático y malhumorado escritor, la única persona que tal vez pueda ayudarles a ordenar las piezas del enorme rompecabezas del que forman parte...",
+        "image":"bajo-la-misma-estrella.jpg",
+        "category":"",
+        "price":9000
+    },
+    {
+        "id":4,
+        "name":"Brillrás",
+        "sinopsis":"Hilary es popular, exitosa y divertida. Su hermana Val, en cambio, se define como un completo desastre. Cuando Hilary muere, su familia queda abrumada por el dolor. Justo cuando parece que las cosas nunca mejorarán, Val encuentra la lista de deseos de Hilary. Val decide hacer todo lo que está en la lista, incluso si esto significa ponerse en situaciones que nunca antes habría hecho. Durante este proceso, ella comienza a darse cuenta de que siempre tuvo una imagen equivocada de sí misma.",
+        "image":"brillaras.jpg",
+        "category":"",
+        "price":8000
+    },
+    {
+        "id":5,
+        "name":"Ciudades de papel",
+        "sinopsis":"Quentin está en su último año de instituto, a punto de graduarse, y tiene un vínculo especial con su vecina Margo, de la que siempre ha estado enamorado. A pesar de que cuando eran niños pasaban muchas horas jugando juntos, desde hace tiempo ella apenas le dirige la palabra. Pero todo cambia la noche en que Margo va a buscarlo a su casa y le pide que la acompañe en un «road trip» algo particular: Margo se ha enterado de que su novio la engaña con su mejor amiga y ha planeado una venganza en toda regla que acometerá antes de la salida del sol. Quentin acepta convertirse en su cómplice, con la esperanza de que esa noche vuelva a unirlos para siempre... Pero las cosas no resultan como él desea: al día siguiente, Margo ha desaparecido sin decir nada a nadie. El misterio de su desaparición parece no importar demasiado a los padres de Margo: no es la primera vez que se escapa y ya están hartos de las continuas excentricidades de su hija, pero Quentin pronto se da cuenta de que esta vez todo es distinto: Margo ha dejado una serie de pistas encadenadas y pensadas para que solo él pueda descifrarlas...",
+        "image":"ciudades-de-papel.jpg",
+        "category":"",
+        "price":7800
+    },
+    {
+        "id":6,
+        "name":"El arte de ser nosotros",
+        "sinopsis":"La vida no es justa, y eso Logan lo sabe muy bien. Después de una dolorosa pérdida, su corazón se ha vuelto hermético, frío e inquebrantable. Por eso no le importa que todos crean que es el malo de la historia. Leah nunca se ha sentido la protagonista de la suya. Vive con la cabeza enterrada en los libros, intentando pasar desapercibida, y se refugia en la gran comunidad de lectores que tiene en internet. Leah no es el tipo de chica que Logan está buscando. Y Logan es la clase de chico que Leah trata de evitar. Quizá por eso lo que hay entre ellos funciona tan bien. La historia que ha tocado el corazón de miles de lectores en Wattpad en una edición especial con capítulos inéditos.",
+        "image":"el-arte-de-ser-nosotros.jpg",
+        "category":"",
+        "price":12000
+    },
+    {
+        "id":7,
+        "name":"El sutil arte de que (casi todo) te importe una mierda",
+        "sinopsis":"En esta guía de autoayuda, el bestseller internacional que está definiendo a toda una generación, el bloguero superestrella Mark Manson nos demuestra que la clave para ser personas más seguras y felices es manejar de mejor forma la adversidad. ¡A la mierda con la positividad!. Durante los últimos años, Mark Manson -en su popular blog- se ha afanado en corregir nuestras delirantes expectativas sobre nosotros mismos y el mundo. Ahora nos ofrece su toda su intrépida sabiduría en este libro pionero. Manson nos recuerda que los seres humanos somos falibles y limitados: no todos podemos ser extraordinarios: hay ganadores y perdedores en la sociedad, y esto no siempre es justo o es tu culpa . Manson nos aconseja que reconozcamos nuestras limitaciones y las aceptemos. Esto es, según él, el verdadero origen del empoderamiento. Una vez que abrazamos nuestros temores, faltas e incertidumbres, una vez que dejamos de huir y evadir y empezamos a confrontar las verdades dolorosas, podemos comenzar a encontrar el valor, la perseverancia, la honestidad, la responsabilidad, la curiosidad y el perdón que buscamos. Manson nos ofrece un momento de urgente sinceridad, ese cuando alguien te sujeta por los hombros y te mira a los ojos para tener una charla honesta, pero llena de historias entretenidas y de humor profano, despiadado. Este manifiesto es una refrescante bofetada en nuestra cara, para que podamos empezar a llevar vidas más satisfechas y con los pies en la tierra.",
+        "image":"el-sutil-arte.jpg",
+        "category":"",
+        "price":10500
+    },
+    {
+        "id":8,
+        "name":"El visitante",
+        "sinopsis":"Un niño de once años ha sido brutalmente asesinado. Todas las pruebas  apuntan a uno de los ciudadanos más queridos de Flint City: Terry  Maitland, entrenador en la liga infantil, profesor de literatura, marido  ejemplar y padre de dos niñas. El detective Ralph Anderson ordena su  detención. Maitland tiene una coartada firme que demuestra que estuvo en  otra ciudad cuando se cometió el crimen, pero las pruebas de ADN encontradas en el lugar de los hechos confirman que es culpable. Ante la justicia y la opinión pública Terry Maitland es un asesino  y el caso está resuelto. Pero el detective Anderson no está satisfecho. Maitland parece un buen  tipo, un ciudadano ejemplar, ¿acaso tiene dos caras? Y ¿cómo es posible que estuviera en dos sitios a la vez? La respuesta, como no podría ser de otra forma saliendo de la pluma de  Stephen King, te hará desear no haber preguntado.",
+        "image":"el-visitante.jpg",
+        "category":"",
+        "price":11000
+    },
+    {
+        "id":9,
+        "name":"Hackea tu mente",
+        "sinopsis":"Somos lo que nos contamos que somos. Podemos modificar cualquier hábito, costumbre, reacción o reflexión tan solo aprendiendo a pensar. ¿Cómo? Hackeando nuestra mente. Así generamos memoria nueva y la ponemos a disposición de la creación de nuestro futuro. Millie Gianella Bourdieu, especialista en neurociencia aplicada al desarrollo personal y profesional, nos enseña de forma simple cómo entrenar nuestro cerebro para lograr todo lo que nos propongamos. Tu mente es la tecnología más avanzada que puedas imaginar. ¿Te animas a hackearla?",
+        "image":"hackea-tu-mente.jpg",
+        "category":"",
+        "price":9200
+    },
+    {
+        "id":10,
+        "name":"Nosotros en la luna",
+        "sinopsis":"Cuando Rhys y Ginger se conocen en las calles de la ciudad de la luz, no imaginan que sus vidas se unirán para siempre, a pesar de la distancia y de que no puedan ser más diferentes. Ella vive en Londres y a veces se siente tan perdida que se ha olvidado hasta de sus propios sueños. Él es incapaz de quedarse quieto en ningún lugar y cree saber quién es. Y cada noche su amistad crece entre emails llenos de confidencias, dudas e inquietudes. Pero ¿qué ocurre cuando el paso del tiempo pone a prueba su relación? ¿Es posible colgarse de la luna junto a otra persona sin poner en riesgo el corazón? Una historia sobre el amor, el destino y la búsqueda de uno mismo.",
+        "image":"nosotros-en-la-luna",
+        "category":"",
+        "price":10000
+    },
+    {
+        "id":11,
+        "name":"Serás",
+        "sinopsis":"Liz es simplemente perfecta. O eso es lo que espera que todos crean. Alumna sobresaliente, con una gran personalidad y un futuro brillante por delante. Nadie podría sospechar que esconde grandes secretos ni que posee una identidad oculta: Lady Macbeth, su verdadero yo. Jayden es un desastre. O eso cree Liz. Un rebelde despreocupado y sin ambiciones, al que no le interesa nada y al que ningún profesor le conoce la voz. La vida está a punto de juntarlos, y el destino les deparará más de una sorpresa. ¿Ser o parecer? ¿En dónde está la verdad?",
+        "image":"seras.jpg",
+        "category":"",
+        "price":8000
+    },
+    {
+        "id":12,
+        "name":"Verity",
+        "sinopsis":"Lowen Ashleigh, autora al borde de la bancarrota, recibe un encargo que le cambiará la vida: Jeremy, el flamante marido de Verity Crawford, una de las autoras más importantes del momento, la contrata para terminar la serie de libros en la que trabajaba su mujer antes de sufrir un grave accidente que la ha dejado en coma. Lowen se instala en la mansión del matrimonio para poder trabajar en las notas en las que trabajaba Verity, con la esperanza de encontrar material suficiente para empezar con su encargo, pero lo que no esperaba descubrir en la caótica oficina es una autobiografía de la propia Verity, escondida para que nunca salga a la luz. Suspense de alto voltaje.Adictiva y con un twist final inesperado, consigue mantener en vilo al lector hasta el final.",
+        "image":"verity.jpg",
+        "category":"",
+        "price":7500
+    }
+]
