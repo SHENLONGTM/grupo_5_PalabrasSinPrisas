@@ -17,6 +17,10 @@ app.set('views', path.resolve(__dirname, "views"));
 //Recursos estaticos
 app.use(express.static('public'));
 
+//Necesario para leer archivos JSON
+app.use(express.urlencoded({ extended: false}));
+app.use(express.json());
+
 
 /* Manejo de rutas */
 //Raiz
